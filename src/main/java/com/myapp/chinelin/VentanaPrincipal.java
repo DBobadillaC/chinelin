@@ -1,4 +1,4 @@
-package chanelin.gui;
+package com.myapp.chinelin;
 
 import javax.swing.*;
 
