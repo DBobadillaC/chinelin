@@ -29,6 +29,10 @@ public class VentanaPrincipal extends JFrame {
         JButton btnInventario = createStyledButton("Ver Inventario", font);
         JButton btnSalir = createStyledButton("Salir", font);
         btnSalir.addActionListener(e -> System.exit(0));
+        btnProducto.addActionListener(e -> {
+            RegistrarProducto ventanaProducto = new RegistrarProducto();
+            ventanaProducto.setVisible(true);
+        });
 
         // Añadir al panel
         panel.add(btnProducto);
