@@ -136,3 +136,15 @@ Desarrollar un sistema de ventas e inventario para la empresa familiar **Chineli
 - Generación del `.jar` ejecutable con `maven-shade-plugin`.
 - Presentación del proyecto final.
 - Retroalimentación y cierre de sprint.
+## 🧠 Requerimientos futuros (a implementar en próximas versiones)
+
+- 🧾 **Módulo de facturación electrónica** con generación automática de boletas y facturas .
+- 🌐 **Sistema web complementario** para acceder desde navegador (migración parcial a web).
+- 👥 **Gestión de usuarios con roles** (administrador, vendedor, cajero).
+- 🗃️ **Historial completo de productos vendidos y egresos**, con filtros avanzados.
+- 📦 **Módulo de proveedores y compras** para registrar abastecimiento de stock.
+- 🔔 **Sistema de alertas** por bajo stock o fechas de vencimiento.
+- 📱 **Versión móvil o app** para ventas rápidas desde celulares o tablets.
+- 🔐 **Autenticación con contraseñas cifradas** y registro de actividad por usuario.
+
+---
