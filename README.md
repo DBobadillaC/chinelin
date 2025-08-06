@@ -49,7 +49,7 @@ Instalar Java JDK 17 o superior
 
 Instalar MySQL Server y Workbench
 
-Crear la base de datos chinelin_db y ejecutar el script chinelin.sql ubicado en la carpeta /database
+Crear la base de datos chinelin y ejecutar el script chinelin.sql ubicado en la carpeta /database
 
 ## 3. Ejecutar el Proyecto
 Abrir el proyecto en tu IDE
@@ -61,7 +61,7 @@ Ejecutar la clase Main.java
 ## ⚙️ Configuración
 ### Archivo de Configuración de la Conexión
 
-String url = "jdbc:mysql://localhost:3306/chinelin_db";
+String url = "jdbc:mysql://localhost:3306/chinelin";
 String user = "root";
 String password = "tu_contraseña";
 ## 📘 Uso
