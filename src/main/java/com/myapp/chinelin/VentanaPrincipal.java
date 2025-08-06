@@ -37,6 +37,10 @@ public class VentanaPrincipal extends JFrame {
             VerInventario ventanaInventario = new VerInventario();
             ventanaInventario.setVisible(true);
         });
+        btnVenta.addActionListener(e -> {
+            RealizarVenta ventanaVenta = new RealizarVenta();
+            ventanaVenta.setVisible(true);
+        });
 
         // Añadir al panel
         panel.add(btnProducto);
